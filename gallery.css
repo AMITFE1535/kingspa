@@ -1,0 +1,86 @@
+@charset "utf-8";
+.slider-img{
+	height: 93vh;
+	background-position: center;
+	background-size: cover;
+}
+.logo{
+	position: fixed;
+	top: 120px;
+	z-index: 10;
+}
+.logo_img{
+	border-radius: 50%;
+	float: left;
+	margin-left: 120px;
+	background-size: cover;
+}
+.whats_call{
+	position: fixed;
+	bottom: 170px;
+	z-index: 10;
+}
+.whatsapp_img{
+	border-radius: 50%;
+	float: right;
+	margin-right: 60px;
+	background-size: cover;
+}
+.phone_call{
+	position: fixed;
+	bottom: 80px;
+	z-index: 10;
+}
+.phone_img{
+	border-radius: 50%;
+	background-position: center;
+	float: right;
+	margin-right: 60px;
+	background-size: cover;
+}
+.nav-item{
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	background: transparent;
+	position: relative;
+	text-decoration-color: aquamarine;
+}
+.nav-item:hover{
+	border: 0;
+	border-radius: 5px;
+	color: #ff0;
+	box-shadow: 0 0 3px #ffe205, 0 0 5px #ffe205, 0 0 7px #edd205;
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+	   
+}
+h2{
+	 font-family: 'Great Vibes', cursive;
+}
+.carousel-inner{
+	height: 93vh;
+	width: 100%;
+}
+.carousel-item{
+	height: 93vh;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-caption{
+	bottom: 290px;
+	z-index: 1;
+}
+.carousel-caption h1{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.carousel-caption h2{
+	width: 60%;
+	margin: auto;
+	font-size: 30px;
+	line-height: .9;
+}
+

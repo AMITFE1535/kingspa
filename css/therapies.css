@@ -1,0 +1,20 @@
+@charset "utf-8";
+.nav-item{
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	background: transparent;
+	position: relative;
+	text-decoration-color: aquamarine;
+}
+.nav-item:hover{
+	border: 0;
+	border-radius: 5px;
+	color: #ff0;
+	box-shadow: 0 0 3px #ffe205, 0 0 5px #ffe205, 0 0 7px #edd205;
+}
+.carousel-inner{
+	height: 93vh;
+}
+.carousel-inner .carousel-caption{
+	top: 45vh;
+}
